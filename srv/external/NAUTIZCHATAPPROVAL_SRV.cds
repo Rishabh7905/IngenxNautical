@@ -1,4 +1,4 @@
-/* checksum : 607c5cc1e5314255b98b3c56e502c851 */
+/* checksum : 8f1baa69741a7acb0e5f8dbfb5266e15 */
 @cds.external : true
 @m.IsDefaultEntityContainer : 'true'
 @sap.supported.formats : 'atom json xlsx'
@@ -25,7 +25,7 @@ entity NAUTIZCHATAPPROVAL_SRV.chartapprSet {
   @sap.updatable : 'false'
   @sap.sortable : 'false'
   @sap.filterable : 'false'
-  key Chrnmin : String(10) not null;
+  Chrnmin : String(10) not null;
   @sap.unicode : 'false'
   @sap.label : 'Approver Level'
   @sap.creatable : 'false'

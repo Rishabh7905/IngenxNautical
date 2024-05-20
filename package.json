@@ -98,7 +98,7 @@
         "csrfInBatch": true,
         "[production]": {
           "credentials": {
-            "destination": "Ingenx_OData_SAP",
+            "destination": "Ingenx_OData_SAP1",
             "path": "/sap/opu/odata/nauti/CHATAPPROVAL_SRV"
           }
         },

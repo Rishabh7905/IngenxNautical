@@ -46,6 +46,6 @@ service NauticalCharteringService {
  entity xNAUTIxvoy_valuehelp as projection on NAUTIZVOY_VALUEHELP_CDS.xNAUTIxvoy_valuehelp
     {        key Voyno, Voynm, Zaction     }    
 ;
-
+ 
 
 }

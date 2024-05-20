@@ -9,7 +9,6 @@
             <EntityType Name="chartappr" sap:content-version="1">
                 <Key>
                     <PropertyRef Name="Creqno"/>
-                    <PropertyRef Name="Chrnmin"/>
                 </Key>
                 <Property Name="Creqno" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:label="Chartering Approval" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
                 <Property Name="Chrnmin" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:label="Chartering Req. No." sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
